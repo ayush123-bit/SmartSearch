@@ -63,7 +63,7 @@ Ensure you have the following installed on your system:
 
    ```bash
    git clone https://github.com/ayush123-bit/SmartSearch
-   cd SmartSearch
+   cd client
    ```
 
 2. **Install dependencies:**
@@ -117,7 +117,7 @@ Ensure you have the following installed on your system:
 
 ## Folder Structure
 ```
-search-aggregator/
+client/
 ├── public/
 │   └── index.html
 ├── src/
