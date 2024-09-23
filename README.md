@@ -122,20 +122,20 @@ search-aggregator/
 │   └── index.html
 ├── src/
 │   ├── components/
-│   │   └── Search.js
+│   │   └── SearchComponent.js
 │   ├── App.js
 │   ├── App.css
 │   └── index.js
 ├── server/
-│   └── server.js
+│   └── app.js
 ├── .env
 ├── package.json
 └── README.md
 ```
 
 ### Key Files:
-- `src/components/Search.js`: The main search component.
-- `server/server.js`: The backend logic for fetching search results from different APIs.
+- `src/components/SearchComponent.js`: The main search component.
+- `server/app.js`: The backend logic for fetching search results from different APIs.
 - `.env`: Stores API keys.
   
 ---
@@ -145,11 +145,6 @@ search-aggregator/
 - Implement caching to speed up repeated searches.
 - Extend the ranking algorithm to include more factors (e.g., engagement metrics).
 - Add pagination for large sets of search results.
-
----
-
-## License
-This project is licensed under the MIT License.
 
 ---
 
