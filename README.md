@@ -62,8 +62,8 @@ Ensure you have the following installed on your system:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/ayush123-bit/Search-Smart.git
-   cd search-aggregator
+   git clone https://github.com/ayush123-bit/SmartSearch
+   cd SmartSearch
    ```
 
 2. **Install dependencies:**
